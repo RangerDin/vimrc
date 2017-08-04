@@ -401,7 +401,7 @@ map <leader>jh :call HtmlBeautify()<cr>
 " easy-grep
 let g:EasyGrepCommand = 1
 let g:EasyGrepMode = 2
-let g:EasyGrepFileAssociations = '/home/htype/.vim/plugin-configs/easy-grep/EasyGrepFileAssociations'
+let g:EasyGrepFileAssociations = '.vim/plugin-configs/easy-grep/EasyGrepFileAssociations'
 let g:EasyGrepFileAssociationsInExplorer = 1
 let g:EasyGrepRecursive = 1
 let g:EasyGrepFilesToExclude = 'migrations'
@@ -414,7 +414,7 @@ map <leader>tt :tabnew<CR>
 map <leader>gd :Gvdiff<CR>
 
 " VimWiki
-let g:vimwiki_list = [{'path': '/home/htype/Polygon/Library/wiki/english/', 'path_html': '/home/htype/Polygon/Library/wiki/english/html/'}]
+let g:vimwiki_list = [{'path': 'wiki/', 'path_html': 'wiki/html/'}]
 
 " indent line
 let g:indentLine_enabled = 0

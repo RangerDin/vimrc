@@ -1,0 +1,6 @@
+C=*.c *.h
+C++=*.cpp *.hpp *.cxx *.hxx *.cc <C>
+VHDL=*.hdl *.vhd *.vhdl *.vbe *.vst
+Frontend=*.htm *.html *.js *.css *.jade *.styl *.json *.jsx
+Python=*.py
+PyWeb=*.py <Frontend>
